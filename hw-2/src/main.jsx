@@ -7,7 +7,7 @@ const reactRoot = createRoot(root);
 
 reactRoot.render(
   <div>
-    <h1>{restaurants[0].name}</h1>
+    <h2>{restaurants[0].name}</h2>
     <h3>Меню</h3>
     <ul>
       <li>{restaurants[0].menu[0].name}</li>
@@ -19,7 +19,7 @@ reactRoot.render(
       <li>{restaurants[0].reviews[0].text}</li>
       <li>{restaurants[0].reviews[1].text}</li>
     </ul>
-    <h1>{restaurants[1].name}</h1>
+    <h2>{restaurants[1].name}</h2>
     <h3>Меню</h3>
     <ul>
       <li>{restaurants[1].menu[0].name}</li>
@@ -31,7 +31,7 @@ reactRoot.render(
       <li>{restaurants[1].reviews[1].text}</li>
       <li>{restaurants[1].reviews[2].text}</li>
     </ul>
-    <h1>{restaurants[2].name}</h1>
+    <h2>{restaurants[2].name}</h2>
     <h3>Меню</h3>
     <ul>
       <li>{restaurants[2].menu[0].name}</li>
@@ -42,7 +42,7 @@ reactRoot.render(
     <ul>
       <li>{restaurants[2].reviews[0].text}</li>
     </ul>
-    <h1>{restaurants[3].name}</h1>
+    <h2>{restaurants[3].name}</h2>
     <h3>Меню</h3>
     <ul>
       <li>{restaurants[3].menu[0].name}</li>
